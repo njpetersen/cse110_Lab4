@@ -23,7 +23,7 @@ public class SummaryView extends VBox {
     public void setTotal(double total) {
         totalLabel.setText("$" + String.format("%.2f", total));
     }
-
+    /// Hello
     public Button getBackButton() {
         return backButton;
     }
