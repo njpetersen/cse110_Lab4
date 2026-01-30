@@ -18,6 +18,10 @@ public class Model {
         return repository.getExpenses();
     }
 
+    public void deleteExpense(int id) {
+        repository.deleteExpense(id);
+    }
+
     public double getTotalSpending() {
         return repository.getTotal();
     }
