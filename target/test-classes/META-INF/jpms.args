@@ -1,4 +1,0 @@
---patch-module
-edu.ucsd.spendingtracker=_
---add-reads
-edu.ucsd.spendingtracker=ALL-UNNAMED
